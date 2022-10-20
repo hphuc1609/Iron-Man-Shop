@@ -89,7 +89,7 @@
     background-position: 40% 50%;
   }
 
-  .gallery-image {
+  .gallery-slide {
     width: 300px;
     height: 300px;
   }
@@ -167,7 +167,7 @@
     flex: unset;
   }
 
-  .preorder-count__time {
+  .preorder-count__number {
     font-size: 3rem;
   }
 
@@ -295,7 +295,7 @@
     background-position: 48% 50%;
   }
 
-  .gallery-image {
+  .gallery-slide {
     width: 300px;
     height: 300px;
   }
@@ -394,8 +394,9 @@
   }
 
   .preorder-count {
-    margin-left: auto;
     flex: unset;
+    width: 55%;
+    margin-left: auto;
   }
 
   .preorder-price {
