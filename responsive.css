@@ -216,6 +216,10 @@
   }
 
   /* Hero */
+  .hero-heading {
+    letter-spacing: -1px;
+  }
+
   .hero-container {
     background-size: cover;
     background-position: 40% -230px;
@@ -288,7 +292,7 @@
 
   /* Gallery */
   #gallery {
-    background-position: 40% 50%;
+    background-position: 48% 50%;
   }
 
   .gallery-image {
