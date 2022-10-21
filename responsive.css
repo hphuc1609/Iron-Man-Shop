@@ -391,7 +391,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .about-first .spacer,
@@ -404,6 +404,7 @@
   .about-second .about-text,
   .about-third .about-text {
     max-width: unset;
+    margin-top: 5px;
   }
 
   .about-logo__iron {
@@ -428,16 +429,15 @@
   .preorder-count {
     flex: unset;
     width: 55%;
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .preorder-price {
-    width: 138px;
-    margin-right: auto;
+    width: 150px;
   }
 
   .preorder-other {
-    padding: 0 50px;
+    padding: 0;
   }
 
   .preorder-details {
@@ -448,9 +448,37 @@
     width: 80%;
   }
 
+  .preorder-label,
+  .preorder-label i {
+    font-size: 1.6rem;
+  }
+
+  .preorder-label {
+    padding-left: 8px;
+  }
+
   .preorder-form {
     width: 100%;
-    margin: 80px auto 20px;
+    margin: 80px auto 0;
+    padding: 25px 20px;
+  }
+
+  .preorder-form__input {
+    font-size: 1.2rem;
+  }
+
+  .preorder-form__text {
+    font-size: 1.3rem;
+  }
+
+  .preorder-form__btn button {
+    font-size: 1.2rem;
+    border: 3px solid;
+    padding: 7px 25px;
+  }
+
+  .preorder-form__notice {
+    font-size: 1.1rem;
   }
 }
 
@@ -464,7 +492,7 @@
 
   /* Header */
   .header-logo {
-    width: 162px;
+    width: 186 px;
   }
 
   .header-menu__item {
@@ -602,5 +630,17 @@
 
   .preorder-other {
     padding: 0;
+  }
+
+  .preorder-form__group + .preorder-form__group {
+    margin-top: 12px;
+  }
+
+  .preorder-form__input {
+    height: 28px;
+  }
+
+  .preorder-form__text {
+    height: 50px;
   }
 }
