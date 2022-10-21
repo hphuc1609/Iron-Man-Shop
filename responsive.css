@@ -370,88 +370,88 @@
     width: 300px;
     height: auto;
   }
-}
 
-.about-image,
-.about-desc,
-.about-first,
-.about-second,
-.about-third,
-.about-text,
-.spacer,
-.about-first .about-text,
-.about-second .about-text,
-.about-third .about-text,
-.about-logo__iron {
-  position: static;
-}
+  .about-image,
+  .about-desc,
+  .about-first,
+  .about-second,
+  .about-third,
+  .about-text,
+  .spacer,
+  .about-first .about-text,
+  .about-second .about-text,
+  .about-third .about-text,
+  .about-logo__iron {
+    position: static;
+  }
 
-.about-first,
-.about-second,
-.about-third {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
+  .about-first,
+  .about-second,
+  .about-third {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
 
-.about-first .spacer,
-.about-second .spacer,
-.about-third .spacer {
-  width: 100%;
-}
+  .about-first .spacer,
+  .about-second .spacer,
+  .about-third .spacer {
+    width: 100%;
+  }
 
-.about-first .about-text,
-.about-second .about-text,
-.about-third .about-text {
-  max-width: unset;
-}
+  .about-first .about-text,
+  .about-second .about-text,
+  .about-third .about-text {
+    max-width: unset;
+  }
 
-.about-logo__iron {
-  display: none;
-}
+  .about-logo__iron {
+    display: none;
+  }
 
-.about-logo {
-  position: static;
-  margin: 0 auto 20px;
-}
+  .about-logo {
+    position: static;
+    margin: 0 auto 20px;
+  }
 
-/* Preorder */
-.preorder-container {
-  padding: 0 10px;
-}
+  /* Preorder */
+  .preorder-container {
+    padding: 0 10px;
+  }
 
-.preorder-body {
-  flex-direction: column;
-  width: 100%;
-}
+  .preorder-body {
+    flex-direction: column;
+    width: 100%;
+  }
 
-.preorder-count {
-  flex: unset;
-  width: 55%;
-  margin-left: auto;
-}
+  .preorder-count {
+    flex: unset;
+    width: 55%;
+    margin-left: auto;
+  }
 
-.preorder-price {
-  width: 138px;
-  margin-right: auto;
-}
+  .preorder-price {
+    width: 138px;
+    margin-right: auto;
+  }
 
-.preorder-other {
-  padding: 0 50px;
-}
+  .preorder-other {
+    padding: 0 50px;
+  }
 
-.preorder-details {
-  width: 100%;
-}
+  .preorder-details {
+    width: 100%;
+  }
 
-.preorder-detail__img {
-  width: 80%;
-}
+  .preorder-detail__img {
+    width: 80%;
+  }
 
-.preorder-form {
-  width: 100%;
-  margin: 80px auto 20px;
+  .preorder-form {
+    width: 100%;
+    margin: 80px auto 20px;
+  }
 }
 
 /* < Mobile */
