@@ -1,9 +1,9 @@
 /* Mobile and  Tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .title {
     font-size: 3rem;
     width: 400px;
-    margin-top: 30px;
+    padding: 8px 0;
   }
 }
 
@@ -23,25 +23,26 @@
   }
 
   /* Hero */
-  .hero-container {
+  .hero-banner {
+    height: 82%;
     background-size: cover;
-    background-position: 40% 50%;
+    background-position: 20% 0;
   }
 
   .hero-content {
     width: 100%;
     margin: 0 auto;
-    padding: 100px 20px;
+    margin: 100px 20px;
   }
 
-  .hero-title {
+  .hero-heading {
     font-size: 5rem;
   }
 
   .hero-desc {
     margin-top: 10px;
-    margin-left: 20px;
-    width: 500px;
+    margin-left: 0;
+    width: 550px;
   }
 
   .hero-btn {
@@ -50,7 +51,11 @@
   }
 
   .hero-image {
-    right: -200px;
+    right: -250px;
+  }
+
+  .hero-image img {
+    object-fit: contain;
   }
 
   /* Video */
@@ -71,17 +76,8 @@
     height: 350px;
   }
 
-  .gear-title {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
   .gear-showcase {
     width: 400px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 90px;
   }
 
   /* Gallery */
@@ -89,9 +85,14 @@
     background-position: 40% 50%;
   }
 
-  .gallery-slide {
-    width: 300px;
-    height: 300px;
+  .gallery-wrapper {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .gallery-slide__item {
+    width: 400px;
+    height: 400px;
   }
 
   .gallery-list {
@@ -110,6 +111,10 @@
   .about-image {
     width: 300px;
     left: -65px;
+  }
+
+  .about-text {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
 
   .about-first {
@@ -149,6 +154,10 @@
   .about-third .about-text {
     left: 125px;
     top: 0;
+  }
+
+  .about-logo {
+    bottom: 16px;
   }
 
   /* Preorder */
@@ -220,16 +229,19 @@
     letter-spacing: -1px;
   }
 
-  .hero-container {
+  .hero-banner {
+    height: 445px;
+    padding-top: 0;
     background-size: cover;
-    background-position: 40% -230px;
-    padding: 0 10px;
+    background-position: 50%;
+    position: static;
   }
 
   .hero-content {
     margin-left: 0;
-    margin-top: 445px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0 10px;
   }
 
   .hero-title {
@@ -243,10 +255,11 @@
   }
 
   .hero-image {
-    width: 300px;
-    top: 38%;
+    top: 258px;
+    right: -22px;
     transform: translateY(-50%);
-    height: 447px;
+    height: 425px;
+    width: 278px;
   }
 
   .hero-btn {
@@ -275,19 +288,20 @@
   /* Gear */
   #gear {
     height: 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
   }
 
   .gear-title {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-bottom: 20px;
+    margin-left: 0;
   }
 
   .gear-showcase {
-    width: 400px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 90px;
+    width: 100%;
+    margin: 0;
   }
 
   /* Gallery */
@@ -295,13 +309,27 @@
     background-position: 48% 50%;
   }
 
-  .gallery-slide {
-    width: 300px;
-    height: 300px;
+  .gallery-container {
+    padding: 0 10px;
   }
 
-  .gallery-slide {
-    width: 100%;
+  .gallery-wrapper {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .gallery-title {
+    margin-top: 20px;
+  }
+
+  .gallery-logo-mobile {
+    display: flex;
+    margin-top: 12px;
+  }
+
+  .gallery-slide__item {
+    width: 300px;
+    height: 300px;
   }
 
   .gallery-list {
@@ -317,107 +345,262 @@
   }
 
   .gallery-logo {
-    position: static;
-    margin-bottom: 10px;
+    top: 90px;
+    bottom: unset;
+    right: unset;
+    transform: unset;
   }
 
   /* About */
-  .about-title {
-    width: 400px;
-    font-size: 2.7rem;
+  .about-container {
+    padding: 0 10px;
   }
 
-  .about-image {
-    width: 100%;
-    margin-top: 20px;
+  .about-title {
+    width: 400px;
   }
 
   .about-intro {
     display: flex;
     flex-direction: column;
-  }
-
-  .about-desc {
-    padding: 0 10px;
-    margin-top: 20px;
-  }
-
-  .about-image,
-  .about-desc,
-  .about-first,
-  .about-second,
-  .about-third,
-  .about-text,
-  .spacer,
-  .about-first .about-text,
-  .about-second .about-text,
-  .about-third .about-text,
-  .about-logo__iron {
-    position: static;
-  }
-
-  .about-first,
-  .about-second,
-  .about-third {
-    display: flex;
     align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
   }
 
-  .about-first .spacer,
-  .about-second .spacer,
-  .about-third .spacer {
+  .about-image {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.about-image,
+.about-desc,
+.about-first,
+.about-second,
+.about-third,
+.about-text,
+.spacer,
+.about-first .about-text,
+.about-second .about-text,
+.about-third .about-text,
+.about-logo__iron {
+  position: static;
+}
+
+.about-first,
+.about-second,
+.about-third {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.about-first .spacer,
+.about-second .spacer,
+.about-third .spacer {
+  width: 100%;
+}
+
+.about-first .about-text,
+.about-second .about-text,
+.about-third .about-text {
+  max-width: unset;
+}
+
+.about-logo__iron {
+  display: none;
+}
+
+.about-logo {
+  position: static;
+  margin: 0 auto 20px;
+}
+
+/* Preorder */
+.preorder-container {
+  padding: 0 10px;
+}
+
+.preorder-body {
+  flex-direction: column;
+  width: 100%;
+}
+
+.preorder-count {
+  flex: unset;
+  width: 55%;
+  margin-left: auto;
+}
+
+.preorder-price {
+  width: 138px;
+  margin-right: auto;
+}
+
+.preorder-other {
+  padding: 0 50px;
+}
+
+.preorder-details {
+  width: 100%;
+}
+
+.preorder-detail__img {
+  width: 80%;
+}
+
+.preorder-form {
+  width: 100%;
+  margin: 80px auto 20px;
+}
+
+/* < Mobile */
+@media only screen and (max-width: 320px) {
+  .title {
+    font-size: 2rem;
     width: 100%;
+    padding: 5px 0;
   }
 
-  .about-first .about-text,
-  .about-second .about-text,
-  .about-third .about-text {
-    max-width: unset;
+  /* Header */
+  .header-logo {
+    width: 162px;
   }
 
-  .about-logo__iron {
-    display: none;
+  .header-menu__item {
+    padding: 12px 0;
   }
 
-  .about-logo {
-    position: static;
-    margin: 0 auto 20px;
+  .header-menu__link {
+    font-size: 1.6rem;
+  }
+
+  /* Hero */
+  .hero-banner {
+    height: 335px;
+    background-position: 50%;
+  }
+
+  .hero-heading {
+    font-size: 6.5rem;
+    line-height: 1.15;
+  }
+
+  .hero-image {
+    height: 326px;
+    width: 200px;
+    top: 200px;
+    right: -5px;
+  }
+
+  /* Video */
+  .video-container {
+    padding: 250px 10px 16px;
+  }
+
+  .video-img__left {
+    width: 100px;
+  }
+
+  .video-img__right {
+    width: 200px;
+  }
+
+  /* Gear */
+  #gear {
+    height: 250px;
+  }
+
+  .gear-title {
+    margin-bottom: 10px;
+  }
+
+  .gear-showcase {
+    width: 300px;
+  }
+
+  /* Gallery */
+  #gallery {
+    background-position: 50% 50%;
+    min-height: 400px;
+  }
+
+  .gallery-container {
+    padding: 0 10px;
+  }
+
+  .gallery-wrapper {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .gallery-title {
+    margin-top: 12px;
+  }
+
+  .gallery-logo-mobile {
+    width: 157px;
+    height: 100%;
+    margin-top: 6px;
+  }
+
+  .gallery-slide__item {
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn-arrow {
+    font-size: 3rem;
+  }
+
+  .gallery-list {
+    margin-bottom: 10px;
+  }
+
+  .gallery-list__item {
+    width: 60px;
+  }
+
+  .gallery-list__item + .gallery-list__item {
+    margin-left: 5px;
+  }
+
+  .gallery-logo {
+    top: 60px;
+  }
+
+  /* About */
+  .about-title {
+    width: 100%;
+    font-size: 2rem;
+    margin: 16px 0 0;
   }
 
   /* Preorder */
-  .preorder-body {
-    flex-direction: column;
-    width: 100%;
-    padding: 0 10px;
+  .preorder-count {
+    margin-left: 0;
   }
 
-  .preorder-count {
-    flex: unset;
-    width: 55%;
-    margin-left: auto;
+  .preorder-count__number {
+    font-size: 2.5rem;
   }
 
   .preorder-price {
-    width: 138px;
-    margin-right: auto;
+    width: 110px;
+    height: 40px;
+    margin-right: 0;
+  }
+
+  .preorder-price__old {
+    font-size: 1.2rem;
+    top: -10px;
+  }
+
+  .preorder-price__new {
+    font-size: 1.8rem;
   }
 
   .preorder-other {
-    padding: 0 50px;
-  }
-
-  .preorder-details {
-    width: 100%;
-  }
-
-  .preorder-detail__img {
-    width: 80%;
-  }
-
-  .preorder-form {
-    width: 100%;
-    margin: 80px auto 20px;
+    padding: 0;
   }
 }
