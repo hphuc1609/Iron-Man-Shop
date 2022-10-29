@@ -1,17 +1,17 @@
 const btnPrev = document.querySelector(".btn-prev");
 const btnNext = document.querySelector(".btn-next");
-const slides = document.querySelectorAll(".gallery-slide__item");
+const slide = document.querySelectorAll(".gallery-slide__item");
 
 let currentSlide = 0;
 
 const showSlide = (n) => {
-  slides[currentSlide].classList.remove("active");
-  slides[n].classList.add("active");
+  slide[currentSlide].classList.remove("active");
+  slide[n].classList.add("active");
   currentSlide = n;
 };
 
 const nextSlide = () => {
-  if (currentSlide === slides.length - 1) {
+  if (currentSlide === slide.length - 1) {
     showSlide(0);
   } else {
     showSlide(currentSlide + 1);
@@ -20,7 +20,7 @@ const nextSlide = () => {
 
 const prevSlide = () => {
   if (currentSlide === 0) {
-    showSlide(slides.length - 1);
+    showSlide(slide.length - 1);
   } else {
     showSlide(currentSlide - 1);
   }
