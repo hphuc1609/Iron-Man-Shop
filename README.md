@@ -13,5 +13,5 @@ This is a landing page iron man model advertisement
 
 <br/>
 
-<p>If it give helpful, please give 1 star ⭐</br>
-Thank you for visiting my responsitory</p>
+<p>If you feel it helpful, please give me 1 star ⭐ <br/>
+Thank you for visit my responsitory</p>
