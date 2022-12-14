@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <meta id="description"
         content="Iron Man Mark 50 mô hình sản phẩm với bộ giáp nâng cấp mới của Người Sắt trong phim Avenger Infinity War. Mô hình Iron Man Mark 50 được làm từ kim loại đúc tạo nên một vẻ ngoài cực ngầu, nước sơn đẹp, mua ngay với giá ưu đãi số lượng có hạn, tặng ngay full bộ phụ kiện Iron Man Mark 50">
-    <meta name=”google” content=”nositelinkssearchbox” />
+    <meta id=”google” content=”nositelinkssearchbox” />
 
     <title>Marvel Studios - Iron Man Mark 50</title>
     <link rel="shortcut icon" href="./assests/images/marvel_favicon.png" type="image/x-icon">
@@ -247,24 +247,7 @@
                     <div class="preorder-body">
                         <div class="preorder-details">
                             <div class="preorder-detail__head">
-                                <div class="preorder-count">
-                                    <!-- <div class="preorder-count__item">
-                                        <span class="preorder-count__number">00</span>
-                                        <span class="preorder-count__text">Ngày</span>
-                                    </div>
-                                    <div class="preorder-count__item">
-                                        <span class="preorder-count__number">00</span>
-                                        <span class="preorder-count__text">Giờ</span>
-                                    </div>
-                                    <div class="preorder-count__item">
-                                        <span class="preorder-count__number">00</span>
-                                        <span class="preorder-count__text">Phút</span>
-                                    </div>
-                                    <div class="preorder-count__item">
-                                        <span class="preorder-count__number">00</span>
-                                        <span class="preorder-count__text">Giây</span>
-                                    </div> -->
-                                </div>
+                                <div class="preorder-count"></div>
                                 <div class="preorder-price">
                                     <span class="preorder-price__old">$2000</span>
                                     <span class="preorder-price__new">$1300</span>
@@ -286,33 +269,31 @@
                             </div>
                         </div>
                         <div class="preorder-form">
-                            <form action="/" method="POST" target="_blank">
+                            <form id="contact" autocomplete="off">
                                 <div class="preorder-form__group">
-                                    <input class="preorder-form__input" type="text" name="name" placeholder="Họ và tên"
+                                    <input class="preorder-form__input" type="text" id="name" placeholder="Họ và tên"
                                         required>
                                 </div>
                                 <div class="preorder-form__group">
-                                    <input class="preorder-form__input" type="email" name="email" placeholder="Email"
+                                    <input class="preorder-form__input" type="email" id="email" placeholder="Email"
                                         required>
                                 </div>
                                 <div class="preorder-form__group">
-                                    <input class="preorder-form__input" type="text" name="phone"
-                                        placeholder="Điện thoại" required>
-                                </div>
-                                <div class="preorder-form__group">
-                                    <input class="preorder-form__input" type="text" name="address" placeholder="Địa chỉ"
+                                    <input class="preorder-form__input" type="text" id="phone" placeholder="Điện thoại"
                                         required>
                                 </div>
                                 <div class="preorder-form__group">
-                                    <textarea class="preorder-form__text" name="message" id="message"
-                                        placeholder="Nội dung" required></textarea>
+                                    <input class="preorder-form__input" type="text" id="address" placeholder="Địa chỉ"
+                                        required>
                                 </div>
-                                <div class="preorder-form__btn">
-                                    <button type="submit" name="submit">Đặt hàng</button>
+                                <div class="preorder-form__group">
+                                    <textarea class="preorder-form__text" id="message" placeholder="Nội dung"
+                                        required></textarea>
                                 </div>
+                                <button class="preorder-form__btn">Đặt hàng</button>
                             </form>
                             <div class="preorder-form__notice">
-                                <span>Sau khi đặt hàng sẽ có nhân viên liên hệ xác nhận các thông tin</span>
+                                <p>Sau khi đặt hàng sẽ có nhân viên liên hệ xác nhận các thông tin</p>
                             </div>
                         </div>
                     </div>
@@ -320,7 +301,7 @@
         </main>
     </div>
 
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

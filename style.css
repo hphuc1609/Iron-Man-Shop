@@ -482,7 +482,7 @@
 
 /* Preorder */
 #preorder {
-  min-height: 680px;
+  height: 100%;
   background-image: url("https://bepage.vn/upload/user/143/70_4041538.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -521,7 +521,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 16px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .preorder-details {
@@ -639,7 +640,6 @@
   border: 4px solid;
   background-color: var(--black);
   box-shadow: -4px -4px 0 var(--white);
-  margin-top: 60px;
   margin-left: 60px;
   padding: 32px 30px;
 }
@@ -657,29 +657,33 @@
   width: 100%;
   height: 38px;
   border: none;
-  padding: 6px 12px;
+  padding: 0 12px;
   outline: none;
   font-size: 1.5rem;
 }
 
 .preorder-form__text {
   width: 100%;
-  height: 62px;
+  height: 100px;
   border: none;
   outline: none;
   font-size: 1.7rem;
-  padding: 6px 12px;
-  resize: vertical;
+  padding: 12px;
+  resize: none;
+}
+
+.preorder-count__expired {
+  font-size: 4rem;
+  letter-spacing: 2px;
 }
 
 .preorder-form__btn {
+  width: 100%;
+  max-width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-}
-
-.preorder-form__btn button {
+  margin: 20px auto 0;
   padding: 9px 29px;
   font-size: 1.6rem;
   font-weight: 700;
