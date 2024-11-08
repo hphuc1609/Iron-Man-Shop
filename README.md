@@ -1,7 +1,7 @@
 # Iron Man 🤖
-This is a landing page iron man model advertisement
+Landing page Iron Man shop
 
-### Demo: https://ironmandesign.vercel.app
+### Offical Link: https://ironman-store.vercel.app/
 
 ## Previews
 ![image](https://user-images.githubusercontent.com/50391243/207368157-9e453f19-741b-4fc6-bcd7-dae3afd34b3c.png)
@@ -9,5 +9,5 @@ This is a landing page iron man model advertisement
 
 <br/>
 
-<p>If you feel it helpful, please give me 1 star ⭐ <br/>
-Thank you for visit my responsitory</p>
+## Support
+<p>If you like this project, give me a ⭐ Thank you 💖</p>
