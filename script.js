@@ -1,10 +1,10 @@
 const btnPrev = document.querySelector(".btn-prev");
 const btnNext = document.querySelector(".btn-next");
-const slides = document.querySelectorAll(".gallery-slide__item");
-const count = document.querySelector(".preorder-count");
-const preorderBtn = document.querySelector(".preorder-form__btn");
+const slides = document.querySelectorAll(".gallery__slide-item");
+const count = document.querySelector(".preorder__count");
+const preorderBtn = document.querySelector(".preorder__form-btn");
 const contact = document.querySelector("#contact");
-const expired = document.querySelector(".preorder-count__expired");
+const expired = document.querySelector(".preorder__count__expired");
 
 let currentSlide = 0;
 
@@ -47,27 +47,27 @@ const countDown = setInterval(() => {
   if (distance <= 0) {
     clearInterval(countDown);
     count.innerHTML = `
-    <h3 class="preorder-count__expired">
+    <h3 class="preorder__count__expired">
       EXPIRED
     </h3>
     `;
   } else {
     count.innerHTML = `
-  <div class="preorder-count__item">
-      <span class="preorder-count__number">${days}</span>
-      <span class="preorder-count__text">Ngày</span>
+  <div class="preorder__count__item">
+      <span class="preorder__count__number">${days}</span>
+      <span class="preorder__count__text">Ngày</span>
   </div>
-  <div class="preorder-count__item">
-      <span class="preorder-count__number">${hours}</span>
-      <span class="preorder-count__text">Giờ</span>
+  <div class="preorder__count__item">
+      <span class="preorder__count__number">${hours}</span>
+      <span class="preorder__count__text">Giờ</span>
   </div>
-  <div class="preorder-count__item">
-      <span class="preorder-count__number">${minutes}</span>
-      <span class="preorder-count__text">Phút</span>
+  <div class="preorder__count__item">
+      <span class="preorder__count__number">${minutes}</span>
+      <span class="preorder__count__text">Phút</span>
   </div>
-  <div class="preorder-count__item">
-      <span class="preorder-count__number">${seconds}</span>
-      <span class="preorder-count__text">Giây</span>
+  <div class="preorder__count__item">
+      <span class="preorder__count__number">${seconds}</span>
+      <span class="preorder__count__text">Giây</span>
   </div>
   `;
   }

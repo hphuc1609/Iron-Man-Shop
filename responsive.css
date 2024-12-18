@@ -23,51 +23,51 @@
   }
 
   /* Hero */
-  .hero-banner {
+  .bg-rock {
     height: 82%;
     background-size: cover;
     background-position: 20% 0;
   }
 
-  .hero-content {
+  .hero__content {
     width: 100%;
     margin: 0 auto;
     margin: 100px 20px;
   }
 
-  .hero-heading {
+  .hero__heading {
     font-size: 5rem;
   }
 
-  .hero-desc {
+  .hero__desc {
     margin-top: 10px;
     margin-left: 0;
     width: 550px;
   }
 
-  .hero-btn {
+  .hero__btn {
     left: 100px;
     width: 250px;
   }
 
-  .hero-image {
+  .hero__iron-man {
     right: -250px;
   }
 
-  .hero-image img {
+  .hero__iron-man img {
     object-fit: contain;
   }
 
   /* Video */
-  .video-container {
+  .video__container {
     width: 500px;
   }
 
-  .video-img__left {
+  .video__img-left {
     left: -235px;
   }
 
-  .video-img__right {
+  .video__img-right {
     right: -280px;
   }
 
@@ -85,116 +85,116 @@
     background-position: 40% 50%;
   }
 
-  .gallery-wrapper {
+  .gallery__wrapper {
     margin-top: 16px;
     margin-bottom: 16px;
   }
 
-  .gallery-slide__item {
+  .gallery__slide-item {
     width: 400px;
     height: 400px;
   }
 
-  .gallery-list {
+  .gallery__list {
     margin-bottom: 20px;
   }
 
-  .gallery-list__item {
+  .gallery__list-item {
     width: 80px;
   }
 
-  .gallery-list__item + .gallery-list__item {
+  .gallery__list-item + .gallery__list-item {
     margin-left: 10px;
   }
 
   /* About */
-  .about-image {
+  .about__image {
     width: 300px;
     left: -65px;
   }
 
-  .about-text {
+  .about__text {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
 
-  .about-first {
+  .about__first {
     left: 128px;
     top: 133px;
   }
 
-  .about-first .spacer {
+  .about__first .spacer {
     width: 500px;
   }
 
-  .about-first .about-text {
+  .about__first .about__text {
     right: 139px;
     min-width: 500px;
   }
 
-  .about-second {
+  .about__second {
     left: 142px;
     top: 10px;
   }
 
-  .about-second .spacer {
+  .about__second .spacer {
     width: 300px;
   }
 
-  .about-second .about-text {
+  .about__second .about__text {
     left: 125px;
     max-width: 300px;
     top: 0;
   }
 
-  .about-third {
+  .about__third {
     top: -97px;
     left: 134px;
   }
 
-  .about-third .about-text {
+  .about__third .about__text {
     left: 125px;
     top: 0;
   }
 
-  .about-logo {
+  .about__logo {
     bottom: 16px;
   }
 
   /* Preorder */
-  .preorder-body {
+  .preorder__body {
     min-width: 600px;
     width: 100%;
     padding: 0 20px;
   }
 
-  .preorder-details {
+  .preorder__details {
     margin-right: 40px;
   }
 
-  .preorder-count {
+  .preorder__count {
     width: 100%;
     flex: unset;
   }
 
-  .preorder-count__number {
+  .preorder__count__number {
     font-size: 3rem;
   }
 
-  .preorder-price {
+  .preorder__price {
     padding: 0 25px;
     height: 50px;
   }
 
-  .preorder-price__old {
+  .preorder__price-old {
     font-size: 1.5rem;
     top: -12px;
   }
 
-  .preorder-price__new {
+  .preorder__price-new {
     font-weight: 400;
   }
 
-  .preorder-form {
+  .preorder__form {
     margin-left: 0;
   }
 }
@@ -225,11 +225,11 @@
   }
 
   /* Hero */
-  .hero-heading {
+  .hero__heading {
     letter-spacing: -1px;
   }
 
-  .hero-banner {
+  .bg-rock {
     height: 445px;
     padding-top: 0;
     background-size: cover;
@@ -237,24 +237,24 @@
     position: static;
   }
 
-  .hero-content {
+  .hero__content {
     margin-left: 0;
     margin-top: 20px;
     margin-bottom: 50px;
     padding: 0 10px;
   }
 
-  .hero-title {
+  .hero__title {
     letter-spacing: -1px;
   }
 
-  .hero-desc {
+  .hero__desc {
     width: 100%;
     margin-top: 10px;
     margin-left: 0;
   }
 
-  .hero-image {
+  .hero__iron-man {
     top: 258px;
     right: -22px;
     transform: translateY(-50%);
@@ -262,24 +262,24 @@
     width: 278px;
   }
 
-  .hero-btn {
+  .hero__btn {
     left: 50%;
     transform: translateX(-50%);
     width: 250px;
   }
 
   /* Video */
-  .video-container {
+  .video__container {
     padding: 380px 10px 16px;
     width: 100%;
   }
 
-  .video-img__left {
+  .video__img-left {
     width: 140px;
     left: 10px;
   }
 
-  .video-img__right {
+  .video__img-right {
     height: auto;
     right: 0;
     width: 300px;
@@ -309,42 +309,42 @@
     background-position: 48% 50%;
   }
 
-  .gallery-container {
+  .gallery__container {
     padding: 0 10px;
   }
 
-  .gallery-wrapper {
+  .gallery__wrapper {
     margin-top: 16px;
     margin-bottom: 16px;
   }
 
-  .gallery-title {
+  .gallery__title {
     margin-top: 20px;
   }
 
-  .gallery-logo-mobile {
+  .gallery__logo-mobile {
     display: flex;
     margin-top: 12px;
   }
 
-  .gallery-slide__item {
+  .gallery__slide-item {
     width: 300px;
     height: 300px;
   }
 
-  .gallery-list {
+  .gallery__list {
     margin-bottom: 20px;
   }
 
-  .gallery-list__item {
+  .gallery__list-item {
     width: 80px;
   }
 
-  .gallery-list__item + .gallery-list__item {
+  .gallery__list-item + .gallery__list-item {
     margin-left: 10px;
   }
 
-  .gallery-logo {
+  .gallery__logo {
     top: 90px;
     bottom: unset;
     right: unset;
@@ -352,132 +352,132 @@
   }
 
   /* About */
-  .about-container {
+  .about__container {
     padding: 0 10px;
   }
 
-  .about-title {
+  .about__title {
     width: 400px;
   }
 
-  .about-intro {
+  .about__intro {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .about-image {
+  .about__image {
     width: 300px;
     height: auto;
   }
 
-  .about-image,
-  .about-desc,
-  .about-first,
-  .about-second,
-  .about-third,
-  .about-text,
+  .about__image,
+  .about__desc,
+  .about__first,
+  .about__second,
+  .about__third,
+  .about__text,
   .spacer,
-  .about-first .about-text,
-  .about-second .about-text,
-  .about-third .about-text,
-  .about-logo__iron {
+  .about__first .about__text,
+  .about__second .about__text,
+  .about__third .about__text,
+  .about__iron {
     position: static;
   }
 
-  .about-first,
-  .about-second,
-  .about-third {
+  .about__first,
+  .about__second,
+  .about__third {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 25px;
   }
 
-  .about-first .spacer,
-  .about-second .spacer,
-  .about-third .spacer {
+  .about__first .spacer,
+  .about__second .spacer,
+  .about__third .spacer {
     width: 100%;
   }
 
-  .about-first .about-text,
-  .about-second .about-text,
-  .about-third .about-text {
+  .about__first .about__text,
+  .about__second .about__text,
+  .about__third .about__text {
     max-width: unset;
     margin-top: 5px;
   }
 
-  .about-logo__iron {
+  .about__iron {
     display: none;
   }
 
-  .about-logo {
+  .about__logo {
     position: static;
     margin: 0 auto 20px;
   }
 
   /* Preorder */
-  .preorder-container {
+  .preorder__container {
     padding: 0 10px;
   }
 
-  .preorder-body {
+  .preorder__body {
     flex-direction: column;
     width: 100%;
   }
 
-  .preorder-count {
+  .preorder__count {
     flex: unset;
     width: 55%;
     margin-left: 0;
   }
 
-  .preorder-price {
+  .preorder__price {
     width: 150px;
   }
 
-  .preorder-other {
+  .preorder__other {
     padding: 0;
   }
 
-  .preorder-details {
+  .preorder__details {
     width: 100%;
   }
 
-  .preorder-detail__img {
+  .preorder__detail-img {
     width: 80%;
   }
 
-  .preorder-label,
-  .preorder-label i {
+  .preorder__label,
+  .preorder__label i {
     font-size: 1.6rem;
   }
 
-  .preorder-label {
+  .preorder__label {
     padding-left: 8px;
   }
 
-  .preorder-form {
+  .preorder__form {
     width: 100%;
     margin: 80px auto 0;
     padding: 25px 20px;
   }
 
-  .preorder-form__input {
+  .preorder__form-input {
     font-size: 1.2rem;
   }
 
-  .preorder-form__text {
+  .preorder__form-text {
     font-size: 1.3rem;
   }
 
-  .preorder-form__btn button {
+  .preorder__form-btn button {
     font-size: 1.2rem;
     border: 3px solid;
     padding: 7px 25px;
   }
 
-  .preorder-form__notice {
+  .preorder__form-notice {
     font-size: 1.1rem;
   }
 }
@@ -504,17 +504,17 @@
   }
 
   /* Hero */
-  .hero-banner {
+  .bg-rock {
     height: 335px;
     background-position: 50%;
   }
 
-  .hero-heading {
+  .hero__heading {
     font-size: 6.5rem;
     line-height: 1.15;
   }
 
-  .hero-image {
+  .hero__iron-man {
     height: 326px;
     width: 200px;
     top: 200px;
@@ -522,15 +522,15 @@
   }
 
   /* Video */
-  .video-container {
+  .video__container {
     padding: 250px 10px 16px;
   }
 
-  .video-img__left {
+  .video__img-left {
     width: 100px;
   }
 
-  .video-img__right {
+  .video__img-right {
     width: 200px;
   }
 
@@ -553,26 +553,26 @@
     min-height: 400px;
   }
 
-  .gallery-container {
+  .gallery__container {
     padding: 0 10px;
   }
 
-  .gallery-wrapper {
+  .gallery__wrapper {
     margin-top: 12px;
     margin-bottom: 12px;
   }
 
-  .gallery-title {
+  .gallery__title {
     margin-top: 12px;
   }
 
-  .gallery-logo-mobile {
+  .gallery__logo-mobile {
     width: 157px;
     height: 100%;
     margin-top: 6px;
   }
 
-  .gallery-slide__item {
+  .gallery__slide-item {
     width: 200px;
     height: 200px;
   }
@@ -581,66 +581,66 @@
     font-size: 3rem;
   }
 
-  .gallery-list {
+  .gallery__list {
     margin-bottom: 10px;
   }
 
-  .gallery-list__item {
+  .gallery__list-item {
     width: 60px;
   }
 
-  .gallery-list__item + .gallery-list__item {
+  .gallery__list-item + .gallery__list-item {
     margin-left: 5px;
   }
 
-  .gallery-logo {
+  .gallery__logo {
     top: 60px;
   }
 
   /* About */
-  .about-title {
+  .about__title {
     width: 100%;
     font-size: 2rem;
     margin: 16px 0 0;
   }
 
   /* Preorder */
-  .preorder-count {
+  .preorder__count {
     margin-left: 0;
   }
 
-  .preorder-count__number {
+  .preorder__count__number {
     font-size: 2.5rem;
   }
 
-  .preorder-price {
+  .preorder__price {
     width: 110px;
     height: 40px;
     margin-right: 0;
   }
 
-  .preorder-price__old {
+  .preorder__price-old {
     font-size: 1.2rem;
     top: -10px;
   }
 
-  .preorder-price__new {
+  .preorder__price-new {
     font-size: 1.8rem;
   }
 
-  .preorder-other {
+  .preorder__other {
     padding: 0;
   }
 
-  .preorder-form__group + .preorder-form__group {
+  .preorder__form-group + .preorder__form-group {
     margin-top: 12px;
   }
 
-  .preorder-form__input {
+  .preorder__form-input {
     height: 28px;
   }
 
-  .preorder-form__text {
+  .preorder__form-text {
     height: 50px;
   }
 }
